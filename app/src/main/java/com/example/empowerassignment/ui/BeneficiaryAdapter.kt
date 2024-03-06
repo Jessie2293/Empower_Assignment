@@ -118,7 +118,7 @@ class BeneficiaryAdapter(
         val addressTextView = TextView(context)
         addressTextView.text = "Address: ${beneficiary.beneficiaryAddress.firstLineMailing} \n" +
                 "${beneficiary.beneficiaryAddress.city}, " +
-                "${beneficiary.beneficiaryAddress.stateCode} \n${beneficiary.beneficiaryAddress.zipCode} \n" +
+                "${beneficiary.beneficiaryAddress.stateCode} ${beneficiary.beneficiaryAddress.zipCode} \n" +
                 "${beneficiary.beneficiaryAddress.country}"
         dialogView.addView(addressTextView)
 
