@@ -1,4 +1,4 @@
-package com.example.empowerassignment
+package com.example.empowerassignment.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
